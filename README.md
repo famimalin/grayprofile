@@ -1,5 +1,6 @@
 # grayprofile
 
+此為以下頁面的原始碼
+
 https://graylin.site/ 
 
-本為以上頁面的原始碼
