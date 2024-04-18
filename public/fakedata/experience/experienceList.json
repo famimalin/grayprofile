@@ -1,0 +1,38 @@
+{
+    "isSuccess": true,
+    "errorMessage": "",
+    "pager": {
+        "perPage": 100,
+        "currentPage": 1,
+        "totalPage": 1
+    },
+    "data": [
+        {
+            "id": "systex",
+            "position": "主任系統設計師",
+            "employment": "精誠資訊股份有限公司",
+            "duration": "2021.09 ~ 2024.03",
+            "responsibilities": [
+                "負責部門產品的前端，從零到正式上線 (ReactJS)",
+                "加強產品行動裝置的體驗 (PWA、Liff)",
+                "優化產生 PDF 報告的功能",
+                "與團隊合作架設前後端分離的環境 (Docker)",
+                "導入自動建置與自動部屬的功能 (Jenkins)"
+            ]
+        },
+        {
+            "id": "ilinke",
+            "position": "全端工程師",
+            "employment": "聯成數網股份有限公司",
+            "duration": "2015.01 ~ 2021.05",
+            "responsibilities": [
+                "前端切版與功能套用 (AngularJS、ReactJS)",
+                "後端程式撰寫 (Java、PostgreSQL、Mongo)",
+                "參與公司產品 App 開發 (React Native)",
+                "維護文章編輯器 (Rich、Markdown)",
+                "多種金流服務與電子發票串接",
+                "AWS 相關服務操作與管理 (CloudFront、S3、Router 53、EC2)"
+            ]
+        }
+    ]
+}

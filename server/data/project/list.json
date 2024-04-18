@@ -1,0 +1,32 @@
+[
+    {
+        "id": "onecrm",
+        "title": "匯客+",
+        "author": "精誠資訊股份有限公司",
+        "imageUrl": "./images/project/onecrm/cover.png",
+        "url": "https://onecrm.tw/",
+        "participate": "前端 95%、後端 0%",
+        "skill": "前端 ReactJS",
+        "content": "匯客+ 是為保險業務員設計的軟體，提供客戶資料管理、拜訪記錄、保單管理、保單健檢功能等等，因此著重於表單處理與資料呈現。\n\n表單的部分，利用拆分 Component 與 Redux 的運用，達到重覆再利用，資料呈現除了基本表格式呈現，也使用 ChartJS 製作圖表，最後利用 SSR 的技術，將漂亮的健檢報告下載給用戶使用。"
+    },
+    {
+        "id": "cupoy",
+        "title": "Cupoy",
+        "author": "聯成數網股份有限公司",
+        "imageUrl": "./images/project/cupoy/cover.png",
+        "url": "https://www.cupoy.com/",
+        "participate": "前端 60%、後端 30%",
+        "skill": "前端 ReactJS AngularJS(早期)、後端 Java",
+        "content": "目前為AI共學社群，提供線上課程以及專家回復學員問題，而早期比較屬於資料彙集服務，主打精選集功能，類似統整各種內容齊集為書冊。\n\n早期精選集功能前端是用 AngularJS 框架，我負責的部分主要為精選集的管理，像是章節內增刪改內容、內容拖拉排序以及維護編輯內容的 Rich Editor。\n後續轉型成共學社群時，前端框架也轉換成 ReactJS，我主要負責做框架轉換以及開發後續問答功能所使用的 Markdown Editor。"
+    },
+    {
+        "id": "jcolor",
+        "title": "捷可印 JColor",
+        "author": "聯成數網股份有限公司",
+        "imageUrl": "./images/project/jcolor/cover.png",
+        "url": "https://www.jcolor.com.tw/",
+        "participate": "前端 90%、後端 80%",
+        "skill": "前端 AngularJS、後端 Java",
+        "content": "捷可印為線上印刷服務，提供審稿服務讓使用者印製商品不用煩惱版型問題，而網站主要特色為商品提供多種規格選項、詳細報價功能與審稿印刷配送的訂單流程。\n\n商品規格利用 AngularJS 資料雙向綁定的特性，製作出能快速選出規格選項並且在前端先計算出價格的功能，而也利用到 AngularJS 快速開發的特性，建立了訂單後台、審稿後台完成系統流程，而我在後端寫了一套快取商品資訊的架構，除了因應SEO的部分，還能快速攤列規格製作出快速下單以及報價功能。"
+    }
+]
