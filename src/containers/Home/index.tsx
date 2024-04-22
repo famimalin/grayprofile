@@ -22,6 +22,8 @@ import { useDispatch } from "react-redux";
 import { useCallback, useState } from "react";
 import { ProjectActions } from "../../redux/modules/projectReducer";
 import PDFService from "../../services/pdfService";
+import { FaGithub } from "react-icons/fa";
+import { FiMail } from "react-icons/fi";
 
 /*--------------------------
     Variable
@@ -135,6 +137,17 @@ const BannerDesc = styled.div`
         margin: 12px 0 0 0;
         font-size: 15px;
     `)}
+`;
+const BannerIcons = styled.div`
+    display: flex;
+    margin: 16px 0 0 0;
+    gap: 30px;
+
+    a {
+        display: flex;
+        color: #fff;
+        font-size: 32px;
+    }
 `;
 const InfoBlock = styled.div`
     padding: 80px 0 0 0;
@@ -372,6 +385,14 @@ const BannerBlock = (props: BannerBlockProps) => {
                 <BannerIcon src="./images/icon/coding.png" alt="coding" width="120" height="120" />
                 <BannerTitle>Gray Lin</BannerTitle>
                 <BannerDesc>a Web Developer.</BannerDesc>
+                <BannerIcons>
+                    <a href="https://github.com/famimalin" target="_blank" rel="noreferrer">
+                        <FaGithub />
+                    </a>
+                    <a href="mailto: famimalin@gmail.com">
+                        <FiMail />
+                    </a>
+                </BannerIcons>
             </BannerContent>
         </Banner>
     );
