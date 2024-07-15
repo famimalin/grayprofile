@@ -1,6 +1,7 @@
 # grayprofile
 
-此為以下頁面的原始碼
+demo: https://famimalin.github.io/profile/
 
-https://graylin.site/ 
+個人網站，記錄著至今的工作經歷與專案作品，只是不定期更新
 
+v16.15.0
