@@ -643,11 +643,13 @@ const Home = (props: HomeProps) => {
                 <ExperiencesBlockByHooks />
                 <ProjectsBlockByHooks />
                 <SkillsBlcokByHooks />
-                <DownloadBlock>
-                    <DownloadButton onClick={download} disabled={isDownloading}>
-                        {isDownloading ? "Downloading..." : "Download my resume"}
-                    </DownloadButton>
-                </DownloadBlock>
+                {false && (
+                    <DownloadBlock>
+                        <DownloadButton onClick={download} disabled={isDownloading}>
+                            {isDownloading ? "Downloading..." : "Download my resume"}
+                        </DownloadButton>
+                    </DownloadBlock>
+                )}
             </Content>
             {Test_Print && <PreviewHomePDF />}
         </>

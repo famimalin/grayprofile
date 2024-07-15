@@ -26,8 +26,9 @@ const getSkillGroupList = createAsyncThunk(
         thunkAPI
     ) => {
         try {
-            const pager = arg.pager;
-            const url = `${SELF_API_ROOT}/skills?perPage=${pager.perPage}&currentPage=${pager.currentPage}`;
+            // const pager = arg.pager;
+            // const url = `${SELF_API_ROOT}/skills?perPage=${pager.perPage}&currentPage=${pager.currentPage}`;
+            const url = `${SELF_API_ROOT}/skill/skillGroupList.json`;
             const result = await AppAxios.getApiPromise("get", url);
             return result;
         } catch (error) {

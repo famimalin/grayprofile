@@ -26,8 +26,9 @@ const getExperienceList = createAsyncThunk(
         thunkAPI
     ) => {
         try {
-            const pager = arg.pager;
-            const url = `${SELF_API_ROOT}/experiences?perPage=${pager.perPage}&currentPage=${pager.currentPage}`;
+            // const pager = arg.pager;
+            // const url = `${SELF_API_ROOT}/experiences?perPage=${pager.perPage}&currentPage=${pager.currentPage}`;
+            const url = `${SELF_API_ROOT}/experience/experienceList.json`;
             const result = await AppAxios.getApiPromise("get", url);
             return result;
         } catch (error) {

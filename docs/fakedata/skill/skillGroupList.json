@@ -1,0 +1,81 @@
+{
+    "isSuccess": true,
+    "errorMessage": "",
+    "pager": {
+        "perPage": 100,
+        "currentPage": 1,
+        "totalPage": 1
+    },
+    "data": [
+        {
+            "id": "frontend",
+            "title": "前端相關",
+            "list": [
+                { "text": "熟悉 HTML5 標籤語法。", "imageUrl": "./images/icon/html5.png" },
+                { "text": "對 ES6+ 都有一定了解。", "imageUrl": "./images/icon/javascript.png" },
+                {
+                    "text": "熟悉 CSS3 樣式語法，而在 React 上則是使用 CSS in JS 的技術 (styled-components)。",
+                    "imageUrl": "./images/icon/css3.png"
+                },
+                {
+                    "text": "熟悉 RWD 網頁響應式切版，並有 PWA 實作經驗。",
+                    "imageUrl": "./images/icon/rwd.png"
+                },
+                {
+                    "text": "掌握 React 各種應用，並有許多 Custom Hooks 與元件化的經驗。",
+                    "imageUrl": "./images/icon/react.png"
+                },
+                {
+                    "text": "有將 Typescript 完整導入專案的經驗，加強程式碼的品質。",
+                    "imageUrl": "./images/icon/typescript.png"
+                },
+                {
+                    "text": "掌握 Node JS 寫法，例如利用 Express.js 架設服務並處理 SSR 的問題、處理 html 轉 pdf 的需求等等。",
+                    "imageUrl": "./images/icon/nodejs.png"
+                },
+                {
+                    "text": "React 生態系相關工具使用經驗 (ReduxToolkit、React Router、React Slick...)、各種套件使用經驗 (Axios、ChartJS、Lottie...) 與第三方 API/SDK 串接經驗 (Google SDK, GA, FB SDK, Line Login, Liff SDK...)。",
+                    "imageUrl": "./images/icon/tools.png"
+                }
+            ]
+        },
+        {
+            "id": "backend",
+            "title": "後端與其他",
+            "list": [
+                {
+                    "text": "有 java 8 的實作經驗，通常撰寫 CRUD api。",
+                    "imageUrl": "./images/icon/java.png"
+                },
+                {
+                    "text": "有 postgresql 與 mongo db 基本語法的操作經驗。",
+                    "imageUrl": "./images/icon/database.png"
+                },
+                {
+                    "text": "串接多種金流服務經驗 (永豐金、玉山、藍新、Line Pay...) 和申請與串接電子發票經驗 (Turnkey)。",
+                    "imageUrl": "./images/icon/api.png"
+                },
+                {
+                    "text": "掌握 Git 基礎使用 (push、pull、fetch、branch、merge...)，通常使用 GUI Sourcetree 來操作。",
+                    "imageUrl": "./images/icon/git.png"
+                },
+                {
+                    "text": "有著運用 docker 與 docker-compose 架設環境的經驗。",
+                    "imageUrl": "./images/icon/docker.png"
+                },
+                {
+                    "text": "自行學習 Jenkins 工具，成功完成自動建置與自動部屬的實作。",
+                    "imageUrl": "./images/icon/jenkins.png"
+                },
+                {
+                    "text": "掌握 nginx 基礎應用 (正向代理、反向代理、ssl設定、安全性設定、load balance...)。",
+                    "imageUrl": "./images/icon/nginx.png"
+                },
+                {
+                    "text": "AWS 相關服務操作與管理經驗 (CloudFront、S3、Router 53、EC2) 與些許 Azure 和 GCP 的使用經驗。",
+                    "imageUrl": "./images/icon/cloud.png"
+                }
+            ]
+        }
+    ]
+}

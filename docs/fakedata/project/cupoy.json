@@ -1,0 +1,9 @@
+{
+    "isSuccess": true,
+    "errorMessage": "",
+    "data": {
+        "id": "cupoy",
+        "title": "Cupoy",
+        "mkcontent": "Cupoy 目前為AI共學社群，提供學習與問答功能，早期屬於資料彙集服務，主打精選集功能，而我大多數都在處理精選集以及編輯器的部分，下方以簡單截圖說明。\n\n**精選集 (之後被運用成課程編輯)**\n\n| 說明 | 圖片 |\n| -------- | -------- |\n| **課程管理** | ![課程管理](./images/project/cupoy/preview-001.jpg) |\n| **新增內容** | ![新增內容](./images/project/cupoy/preview-002.jpg) |\n| **提供跨章節拖拉排序** | ![編輯提供跨章節拖拉排序](./images/project/cupoy/preview-003.jpg) |\n\n\n**Rich Editor 編輯器 - 主要提供給精選集撰寫內容**\n\n| 說明 | 圖片 |\n| -------- | -------- |\n| **Rich Editor 編輯器呈現** | ![Rich Editor 編輯器呈現](./images/project/cupoy/preview-004.jpg) |\n| **提供樣板功能** | ![提供樣板功能](./images/project/cupoy/preview-005.jpg) |\n| **可新增的widget** | ![可新增的widget](./images/project/cupoy/preview-006.jpg) |\n| **圖片功能** | ![圖片功能](./images/project/cupoy/preview-007.jpg) |\n\n\n**Markdown 編輯器 - 主要提供問答功能做使用**\n\n| 說明 | 圖片 |\n| -------- | -------- |\n| **完整問答** | ![完整問答](./images/project/cupoy/preview-008.jpg) |\n| **Markdown 編輯器呈現** | ![Markdown 編輯器呈現](./images/project/cupoy/preview-009.jpg) |\n| **提供程式碼新增功能** | ![提供程式碼新增功能](./images/project/cupoy/preview-010.jpg) |"
+    }
+}

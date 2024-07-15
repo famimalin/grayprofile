@@ -9,7 +9,7 @@ import ReactDOM from "react-dom/client";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { HelmetProvider } from "react-helmet-async";
-import { BrowserRouter } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 
 /*--------------------------
     Main
@@ -18,16 +18,16 @@ import { BrowserRouter } from "react-router-dom";
 const dom = (
     <React.StrictMode>
         <HelmetProvider>
-            <BrowserRouter>
+            <HashRouter>
                 <App />
-            </BrowserRouter>
+            </HashRouter>
         </HelmetProvider>
     </React.StrictMode>
 );
 
 const isDevMode = !process.env.NODE_ENV || process.env.NODE_ENV === "development";
 
-if (isDevMode) {
+if (isDevMode || true) {
     const root = ReactDOM.createRoot(document.getElementById("root") as HTMLElement);
     root.render(dom);
 } else {

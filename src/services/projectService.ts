@@ -26,8 +26,9 @@ const getProjectList = createAsyncThunk(
         thunkAPI
     ) => {
         try {
-            const pager = arg.pager;
-            const url = `${SELF_API_ROOT}/projects?perPage=${pager.perPage}&currentPage=${pager.currentPage}`;
+            // const pager = arg.pager;
+            // const url = `${SELF_API_ROOT}/projects?perPage=${pager.perPage}&currentPage=${pager.currentPage}`;
+            const url = `${SELF_API_ROOT}/project/projectList.json`;
             const result = await AppAxios.getApiPromise("get", url);
             return result;
         } catch (error) {
@@ -48,7 +49,8 @@ const getProjectInfo = createAsyncThunk(
         thunkAPI
     ) => {
         try {
-            const url = `${SELF_API_ROOT}/projects/${arg.id}`;
+            // const url = `${SELF_API_ROOT}/projects/${arg.id}`;
+            const url = `${SELF_API_ROOT}/project/${arg.id}.json`;
             const result = await AppAxios.getApiPromise("get", url);
             return result;
         } catch (error) {
